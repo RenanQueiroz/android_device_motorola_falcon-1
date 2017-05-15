@@ -1,7 +1,7 @@
 [
   { 
     "repository":  "LineageOS/android_device_motorola_msm8226-common",
-    "target_path": "device/motorola/victara",
+    "target_path": "device/motorola/falcon",
     "remote":      "github",
     "branch":      "cm-14.1"
   },
@@ -19,7 +19,7 @@
   },
   { 
     "repository":  "LineageOS/android_kernel_motorola_msm8226",
-    "target_path": "kernel/motorola/msm8974",
+    "target_path": "kernel/motorola/msm8226",
     "remote":      "github",
     "branch":      "cm-14.1"
   },

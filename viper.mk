@@ -11,8 +11,5 @@ PRODUCT_NAME := viper_falcon
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-## OTAUpdate
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ota.romname=$(PRODUCT_NAME) \
-    ro.ota.version=$(shell date +%Y%m%d) \
-    ro.ota.manifest=https://raw.githubusercontent.com/Viper0S/android_vendor_ViperOTA/n-mr1/$(PRODUCT_NAME).xml
+## Official
+export VIPER_BUILD_TYPE=OFFICIAL

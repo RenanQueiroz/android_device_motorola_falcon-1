@@ -1,6 +1,6 @@
 [
   { 
-    "repository":  "Viper0S-Devices/android_device_motorola_msm8226-common",
+    "repository":  "ViperOS-Devices/android_device_motorola_msm8226-common",
     "target_path": "device/motorola/msm8226-common",
     "remote":      "github",
     "branch":      "nougat"
@@ -12,10 +12,10 @@
     "branch":      "cm-14.1"
   },
   { 
-    "repository":  "ViperOS-Project/android_packages_resources_devicesettings",
+    "repository":  "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "remote":      "github",
-    "branch":      "nougat"
+    "branch":      "cm-14.1"
   },
   { 
     "repository":  "XPerience-AOSP-Lollipop/android_kernel_motorola_msm8226",
